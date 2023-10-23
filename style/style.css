@@ -311,7 +311,7 @@ img {
 
 /* Menu items */
 .menu-popular-items{
-    margin-top: 50px;
+    margin-top: 140px;
 }
 .menu__titles{
     display: flex;
@@ -342,4 +342,52 @@ img {
     margin-left: auto;
     color:#C99E71;
     font: 600 18px/22px 'Urbanist', Arial, Helvetica, sans-serif;
+}
+
+/* customers */
+.review__title{
+    font: 600 18px/22px 'Urbanist', Arial, Helvetica, sans-serif;
+    color:#C99E71
+}
+.review__subtitle{
+    font: 400 48px/63px 'Righteous', Arial, Helvetica, sans-serif;
+}
+.reviews__titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+
+}
+.info_cust > img {
+    max-width: 129px;
+    max-height: 149px;
+    margin-bottom: 12px;
+}
+.review__wrap{
+    display: flex;
+    gap: 40px;
+}
+
+.customer__item{
+    display: flex;
+    border: 1px solid #1c1814;
+    background-color: #1c1814;
+    padding: 40px;
+    gap: 25px;
+}
+
+.customer__info{
+    font: 500 16px/29px 'Urbanist', Arial, Helvetica, sans-serif;
+    opacity: .7;
+    text-align: left;
+    text-wrap: balance;
+}
+.name{
+    font: 500 18px/22px 'Urbanist', Arial, Helvetica, sans-serif;
+}
+.job{
+    font: 500 14px/26px 'Urbanist', Arial, Helvetica, sans-serif;
+    opacity: .7;
 }
